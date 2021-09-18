@@ -1,5 +1,5 @@
 {
-"name" : "ここに難易度表の名前",
-"symbol" : "ここにシンボル",
-"data_url" : "ここにJSONのURL"
+"name" : "ディレイ難易度表",
+"symbol" : "dl",
+"data_url" : "https://script.google.com/macros/s/AKfycbwBRxfHChYatEDcb7yB-Auc97mXoNDdRgcVlFqU66tY5oiBpE0qOL-8H1iehtiSu0MP/exec"
 }
