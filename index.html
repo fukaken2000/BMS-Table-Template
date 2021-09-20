@@ -62,7 +62,7 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>url_diff</th><<th>Comment</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><<th>Comment</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
@@ -92,8 +92,7 @@
                     // Artist
                     $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
                     
-                    // url_diff
-                    $("<td width='40%'>" + info[i].url_diff + "</td>").appendTo(str);
+                   
 
                     // Comment
                     $("<td width='10%'>" + info[i].comment + "</td>").appendTo(str);
@@ -106,7 +105,7 @@
                 $("</tbody>").appendTo(obj);
 
                 if (obj_sep != null) {
-                    obj_sep.html("<td class='table-dark' style='text-align:center' colspan='5'>" + "<b>" + mark + x +
+                    obj_sep.html("<td class='table-dark' style='text-align:center' colspan='4'>" + "<b>" + mark + x +
                         " (" + count + "譜面)</b></td>");
                 }
             }
